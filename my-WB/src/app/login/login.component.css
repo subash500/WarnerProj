@@ -1,0 +1,39 @@
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+  .iconImage{
+    text-align: center;
+  }
+  .iconImage img{
+    padding:20px 0px;
+  }
+  .mat-focus-indicator{
+    background-color: transparent;
+    box-shadow: none !important;
+  }
+  .colorbg{
+    background-color: #fff;
+  }
+.add-Width{
+    width:100%
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: rgb(159, 159, 159);
+  }
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #4f46e5;
+}
+.btnChangeColor{
+    width: 100%;
+    border-radius: 50px !important;
+    padding: 6px 10px !important;
+    background-color: #4f46e5 !important;
+
+}

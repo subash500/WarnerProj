@@ -1,0 +1,48 @@
+
+<div class="content" >
+   <mat-grid-list [cols]="cols" [rowHeight]="rowHeight">
+    <mat-grid-tile ngClass="colorbg">
+        <mat-card>
+         <mat-card-title>
+          
+             <div class="iconImage">
+                 <img src="assets/image/logotitle.png" width="300px" >
+             </div>
+           
+                <h6 class="mat-display-1 ngTitle-Color">Sign in </h6>
+                
+            
+         </mat-card-title>
+         <mat-card-subtitle>
+             <form class="example-form">
+                <p style="margin:0px">
+                <mat-form-field appearance="outline"   ngClass="add-Width">
+                    <mat-label>Email ID</mat-label>
+                    <input matInput placeholder="Placeholder">
+                   
+                  
+                  </mat-form-field>
+                </p>
+                <p>
+                  <mat-form-field appearance="outline" ngClass="add-Width">
+                    <mat-label>Password</mat-label>
+                    <input matInput placeholder="Placeholder">
+               
+                  
+                  </mat-form-field>
+                </p>
+               </form>
+               <button mat-raised-button color="primary" class="btnChangeColor" (click)="onLogin()">Login into My Account</button>
+         </mat-card-subtitle>
+       
+       </mat-card>
+     
+ 
+     </mat-grid-tile>
+    <mat-grid-tile > 
+        <img src="assets/image/WaterTower.jpg" >
+    </mat-grid-tile>
+ 
+
+  </mat-grid-list>
+</div>
